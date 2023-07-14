@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #c1e3e6;
+}
+
+.welcome-text {
+  font-size: 64px;
+  transition: color 0.3s ease;
+}
+
+.welcome-text.hovered {
+  color: #e52e71;
+}
+
+.futuristic-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background-image: linear-gradient(45deg, #ff8a00, #e52e71);
+  color: #fff;
+  cursor: pointer;
+  transition: background-image 0.3s ease;
+}
+
+.futuristic-button:hover {
+  background-image: linear-gradient(45deg, #e52e71, #ff8a00);
+}
+
+.preview-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.upload-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prediction-result {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: rgba(0,0,0,0.7);
+  color: #fff;
+  border-radius: 5px;
+  z-index: 1000;
+}
