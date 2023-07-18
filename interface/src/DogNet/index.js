@@ -20,9 +20,9 @@ function DogNet() {
         setImage(URL.createObjectURL(event.target.files[0]));
 
         const formData = new FormData();
-        formData.append('file', event.target.files[0]);
+        formData.append('image', event.target.files[0]);
 
-        fetch('http://localhost:5000/predict', {
+        fetch('http://localhost:5000/predict/dogNet', {
             method: 'POST',
             body: formData,
         })
