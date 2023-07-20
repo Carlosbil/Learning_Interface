@@ -43,7 +43,7 @@ function DogNet() {
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
             >
-                Welcome to this awesome world
+                it is a dog?
             </h1>
             <input
                 type="file"
