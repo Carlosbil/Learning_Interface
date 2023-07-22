@@ -29,6 +29,9 @@ function HomePage() {
       <Link to="/dogs_vs_cats">
         <button className="futuristic-btn">Dogs Vs Cats</button>
       </Link>
+      <Link to="/cifar100">
+        <button className="futuristic-btn">What is this ?</button>
+      </Link>
       <input
         type="file"
         accept="image/*"
